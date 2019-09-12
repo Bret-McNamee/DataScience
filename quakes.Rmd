@@ -1,0 +1,12 @@
+---
+title: "Git Example"
+output: html_notebook
+---
+#First
+Load the dataset from quakes into a variable called earthquakes
+
+```{r}
+earthquakes <- data(quakes)
+print(summary(quakes))
+```
+
